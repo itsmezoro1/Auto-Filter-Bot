@@ -198,7 +198,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗡𝗮𝗺𝗲 <b>: {}</b>
 
-𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>""   
+𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""  
 
     CAPTION = """
 <b><a href=https://t.me/Cinema_Moviesz>{file_caption}</a></b>"""
