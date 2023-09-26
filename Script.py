@@ -200,7 +200,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>""   
 
-    CAPTION = """<b> {file_name} </b> """"
+    CAPTION = """<b> {file_name} </b>"""
     
     FORCE_SUB = """
 **⚠️ Pʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟe ⚠️
