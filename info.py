@@ -51,7 +51,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoFilter')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://gyanilinks.com/')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'https://gyanilinks.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', '29fe0783186ce4a20fee4e96c73677af0252e12f')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
