@@ -13,15 +13,15 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+API_ID = int(environ.get('API_ID', '27053150'))
+API_HASH = environ.get('API_HASH', '24d96aa268ad1e38945800280feedf2f')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6611564340:AAHbaVUfZ8dOSG1rsDrBWIqofI37o8cYH4Q")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://graph.org/file/2f7b5a8b0d33102d19c8d.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/d45d2737f9f65fb368cea.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/2f7b5a8b0d33102d19c8d.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/900c5d3aca7c6b100eb69.mp4")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/7b0ba2952ec098bb46997.jpg")
@@ -29,12 +29,12 @@ VRFIED_IMG = environ.get("VRFIED_IMG", "https://graph.org/file/2f7b5a8b0d33102d1
 VRFY_IMG = environ.get("VRFY_IMG", "https://graph.org/file/2f7b5a8b0d33102d19c8d.jpg")
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1717639829').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001700283726').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1717639829 904318605 1494028520 404343946 6553278207 5183660710 716180976 5484844526 2133136177 1705120369 1537031625 1315912204 1390228410 1074953944 888947558 853561146 1809667805 5276458649').split()]
-auth_channel = environ.get('AUTH_CHANNEL')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002104627829')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -45,8 +45,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://itsme:itsmezoro@cluster0.gtj8v7f.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "itsme")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoFilter')
 
 # Others
@@ -65,7 +65,7 @@ TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Watch_how_to_openlinks/7')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
 HOW_TO_VERIFY = environ.get('HOW_TO_VERIFY', 'https://t.me/Watch_how_to_openlinks/7')
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001910953253'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001921863993'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Unknown_Botz')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), False)
