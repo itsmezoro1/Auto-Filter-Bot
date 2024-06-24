@@ -33,7 +33,7 @@ ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001700283726').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '0').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '1717639829 904318605 1494028520 404343946 6553278207 5183660710 716180976 5484844526 2133136177 1705120369 1537031625 1315912204 1390228410 1074953944 888947558 853561146 1809667805 5276458649').split()]
+PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', ' 904318605 1494028520 404343946 6553278207 5183660710 716180976 5484844526 2133136177 1705120369 1537031625 1315912204 1390228410 1074953944 888947558 853561146 1809667805 5276458649').split()]
 auth_channel = environ.get('AUTH_CHANNEL', '-1002104627829')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
@@ -51,8 +51,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoFilter')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'gyanilinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '29fe0783186ce4a20fee4e96c73677af0252e12f')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'offerlinks.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e9937d698f83aaad8f25b478613a41483e8c8190')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "10")
