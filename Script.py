@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇs, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍 You Can Get Files With ADS For Free And If You Want To Get Files For Free Without Any Ads Premium Per Month 30Rs Contact @QMAdminBot. Slots Will Open Every Month From 25-29th </b>"""
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, 𝐈 𝐂𝐚𝐧 𝐏𝐫𝐨𝐯𝐢𝐝𝐞 𝐘𝐨𝐮 𝐌𝐨𝐯𝐢𝐞𝐬 𝐀𝐧𝐝 𝐒𝐞𝐫𝐢𝐞𝐬❤️ 𝐃𝐨𝐧'𝐭 𝐒𝐞𝐚𝐫𝐜𝐡 𝐅𝐨𝐫 𝐓𝐡𝐞𝐚𝐭𝐫𝐞 𝐏𝐫𝐢𝐧𝐭𝐬 𝐀𝐧𝐝 𝐌𝐨𝐯𝐢𝐞𝐬 𝐖𝐡𝐢𝐜𝐡 𝐀𝐫𝐞 𝐍𝐨𝐭 𝐘𝐞𝐭 𝐑𝐞𝐚𝐥𝐞𝐚𝐬𝐞𝐝 𝐈𝐧 𝐎𝐓𝐓𝐒 😑 Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ As Aᴅᴍɪɴ Aɴᴅ Eɴᴊᴏʏ 😍  </b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
@@ -102,7 +102,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
 ★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='t.me/UNKNOWN_MAN_ON_MISSION'>ᴜɴᴋɴᴏᴡɴ</a></b>
+★ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ: <a href='t.me/@ItsMe_1314'>ᴜɴᴋɴᴏᴡɴ</a></b>
 •❅─────✧❅✦❅✧─────❅•"""
 
     LOG_TEXT_G = """#NewGroup
