@@ -50,7 +50,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "itsme")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoFilter')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b13518dd0fad8557280d5cbc1886ff5b247ee4b1')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
@@ -58,7 +58,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "10")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+XxlX1g3gW4phYmM1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+vCM9IL59wn43YjQ1')
 SPRT_CHNL = environ.get('SPRT_CHNL', '')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+OcmpS8MvhMFjNzk9')
 TUTORIAL = environ.get('TUTORIAL', '')
