@@ -50,7 +50,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "itsme")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutoFilter')
 
 # Others
-VERIFY = bool(environ.get('VERIFY', True))
+VERIFY = bool(environ.get('VERIFY', ))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkshortify.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'b13518dd0fad8557280d5cbc1886ff5b247ee4b1')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
